@@ -10,7 +10,7 @@
 - 🔭 Working on: security tools, web vulnerability scanners, and AI-based threat detection  
 - 🌱 Learning: Cloud Security, Threat Hunting, and Red Teaming  
 - 💬 Ask me about: Python, C, networking, and ethical hacking  
-- 📫 Reach me: [LinkedIn](https://linkedin.com/in/your-link) • Email: your.email@example.com
+- 📫 Reach me: [LinkedIn]([https://linkedin.com/in/your-link](https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile)) • Email: sahilnikam133@gmail.com
 
 ---
 
