@@ -10,8 +10,9 @@
 - 🔭 Working on: Security tools, Web Vulnerability Scanners, and AI-based Threat Detection  
 - 🌱 Learning: Cloud Security, Threat Hunting, and Red Teaming  
 - 💬 Ask me about: Python, C, Networking, and Ethical Hacking  
-- 📫 Reach me: [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/sahil-nikam)  
-              [![Email](https://img.shields.io/badge/Email-sahilnikam133%40gmail.com-red?style=flat&logo=gmail)](mailto:sahilnikam133@gmail.com)  
+- 📫 Reach me:  
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/sahil-nikam-)  
+  [![Email](https://img.shields.io/badge/Email-sahilnikam133%40gmail.com-red?style=flat&logo=gmail)](mailto:sahilnikam133@gmail.com)  
 
 ---
 
@@ -23,11 +24,11 @@
 ---
 
 ## 🚀 Featured Projects
-- 🔐 **Password Manager** — Secure password storage & CLI tool.  
-- 🛡️ **Web Vulnerability Scanner** — Detects common web security issues.  
-- 🤖 **AI + Cybersecurity** — Experimental threat detection prototype.  
+- 🔐 **Password Manager** — Secure password storage & CLI tool  
+- 🛡️ **Web Vulnerability Scanner** — Detects common web security issues  
+- 🤖 **AI + Cybersecurity** — Experimental threat detection prototype  
 
-(Replace above with your actual repo links once created)
+*(Replace with your actual repo links once you upload them)*
 
 ---
 
@@ -42,3 +43,4 @@
 ---
 
 ⭐️ From [Sahil Nikam](https://github.com/sahilnikam2410)
+
