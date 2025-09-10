@@ -1,10 +1,8 @@
-# clone (if you haven't)
-git clone https://github.com/sahilnikam2410/sahilnikam2410.git
-cd sahilnikam2410
+<p align="center">
+  <!-- Replace link below with your uploaded GitHub-hosted banner image -->
+  <img src="https://user-images.githubusercontent.com/your-upload-link.png" alt="Sahil Nikam Banner" width="100%" />
+</p>
 
-# open README.md in your editor, replace contents with the final README below
-# (or overwrite)
-cat > README.md <<'README'
 # 👋 Hi, I'm Sahil Nikam  
 
 🎓 Final-year B.Tech (CSE) @ Sandip University  
@@ -35,7 +33,7 @@ cat > README.md <<'README'
 - 🛡️ **Web Vulnerability Scanner** — Detects common web security issues  
 - 🤖 **AI + Cybersecurity** — Experimental threat detection prototype  
 
-*(Replace with your actual repo links once you upload them)*
+*(Replace these with your actual repo links once you upload them)*
 
 ---
 
@@ -46,9 +44,10 @@ cat > README.md <<'README'
 
 ## 📊 Most Used Languages
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sahilnikam2410&layout=compact&theme=radical)  
-README
 
-# commit & push
+---
+
+⭐️ From [Sahil Nikam](https://github.com/sahilnikam2410)
 git add README.md
 git commit -m "chore: update profile README"
 git push origin main
