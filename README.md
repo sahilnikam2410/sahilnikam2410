@@ -1,3 +1,10 @@
+# clone (if you haven't)
+git clone https://github.com/sahilnikam2410/sahilnikam2410.git
+cd sahilnikam2410
+
+# open README.md in your editor, replace contents with the final README below
+# (or overwrite)
+cat > README.md <<'README'
 # 👋 Hi, I'm Sahil Nikam  
 
 🎓 Final-year B.Tech (CSE) @ Sandip University  
@@ -39,8 +46,9 @@
 
 ## 📊 Most Used Languages
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=sahilnikam2410&layout=compact&theme=radical)  
+README
 
----
-
-⭐️ From [Sahil Nikam](https://github.com/sahilnikam2410)
-
+# commit & push
+git add README.md
+git commit -m "chore: update profile README"
+git push origin main
