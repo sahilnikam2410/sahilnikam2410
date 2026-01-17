@@ -37,8 +37,9 @@ I am a **Final-Year B.Tech (CSE)** student at **Sandip University**, specializin
 ### 📊 **Intelligence Report (Stats)**
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sahilnikam2410&show_icons=true&theme=radical&hide_border=true" height="150" alt="stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sahilnikam2410&theme=radical&hide_border=true" height="150" alt="streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=sahilnikam2410&show_icons=true&theme=radical&hide_border=true" alt="stats" />
+  
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sahilnikam2410&theme=radical&hide_border=true" alt="streak" />
 </div>
 
 <div align="center">
@@ -47,6 +48,10 @@ I am a **Final-Year B.Tech (CSE)** student at **Sandip University**, specializin
 </div>
 
 ---
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=sahilnikam2410&theme=radical&no-frame=true&margin-w=15" />
+</div>
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=sahilnikam2410&theme=radical&no-frame=true&margin-w=15" />
