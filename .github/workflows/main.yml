@@ -1,11 +1,21 @@
+### **FILE 2: The Automation Bot (`main.yml`)**
+
+**Instructions:**
+
+1.  In your repository, go to the folder `.github` -\> `workflows` -\> `main.yml`.
+2.  Click **Edit** (Pencil Icon).
+3.  **Delete everything** and paste this code to ensure the Snake generates correctly.
+4.  Click **Commit changes**.
+
+<!-- end list -->
+
+```yaml
 name: Generate Snake
 
 on:
-  # Run automatically every 24 hours
   schedule:
+    # Runs automatically every 24 hours
     - cron: "0 */24 * * *" 
-  
-  # Allows you to run it manually anytime
   workflow_dispatch:
 
 jobs:
