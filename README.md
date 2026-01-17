@@ -1,68 +1,53 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=200&section=header&text=Sahil%20Nikam&fontSize=80&animation=fadeIn&fontAlignY=35&desc=Cybersecurity%20Researcher%20%7C%20Red%20&%20Blue%20Team%20Developer&descAlignY=60&descAlign=50" alt="Sahil Nikam Banner" width="100%" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=39FF14&center=true&vCenter=true&width=435&lines=Hi%2C+I'm+Sahil+Nikam;Cybersecurity+Researcher;Red+Team+%2F+Blue+Team;System+Compromised...;Just+Kidding+%3A)" alt="Typing Effect" />
 </div>
 
-# 👋 Hi, I'm Sahil Nikam
-
-🎓 **Final-Year B.Tech (CSE) @ Sandip University** 🔐 **Cybersecurity Researcher | Red Team & Blue Team Developer** 🚀 **Focus:** Building covert C2 infrastructure, defensive honeypots, and threat intelligence tools.
-
----
-
-## 🌟 About Me
-I am a security enthusiast bridging the gap between offensive and defensive security. My work focuses on **Network Security**, **Steganography**, and **Deception Technology**.
-- 🔭 **Currently Researching:** Covert Command & Control (C2) channels over public APIs.
-- 🌱 **Learning:** Advanced Threat Hunting, Malware Analysis, and Cloud Security.
-- 💬 **Ask me about:** Python for Security, Network Protocols, and Ethical Hacking.
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=200&section=header&text=&fontSize=80&animation=fadeIn&fontAlignY=35&descAlignY=60&descAlign=50" width="100%" />
+</div>
 
 <div align="center"> 
-  <a href="https://www.linkedin.com/in/sahil-nikam-" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:sahilnikam133@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://www.linkedin.com/in/sahil-nikam-" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:sahilnikam133@gmail.com"><img src="https://img.shields.io/badge/Email-Contact_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <img src="https://komarev.com/ghpvc/?username=sahilnikam2410&label=PROFILE+VIEWS&color=0e75b6&style=for-the-badge" alt="Visitor Counter" />
 </div>
 
 ---
 
-## 🛡️ Featured Research Projects
+### 🚀 **Mission Status: ONLINE**
 
-### 🔴 **Red Team: Project Cinema (YouTube C2)**
-*A Steganographic Command & Control agent that bypasses firewalls using YouTube as a dead drop.*
-- **Technique:** Embeds commands in video titles (Text Steganography).
-- **Tech Stack:** Python, Google Data API v3, JSON.
-- **Impact:** Demonstrates vulnerabilities in domain-reputation filtering.
-- 🔗 **[View Repository](https://github.com/sahilnikam2410/YouTube-Stego-C2-PoC)**
+I am a **Final-Year B.Tech (CSE)** student at **Sandip University**, specializing in **Offensive Security (Red Teaming)** and **Defensive Forensics (Blue Teaming)**. I don't just write code; I write scripts that break (and fix) networks.
 
-### 🔵 **Blue Team: Python Network Honeypot**
-*A defensive low-interaction honeypot designed to detect and log internal network intrusions.*
-- **Technique:** Simulates a vulnerable SSH service to capture attacker credentials.
-- **Tech Stack:** Python Socket API, Logging, Threading.
-- **Impact:** Generates threat intelligence and forensic logs of attack attempts.
-- 🔗 **[View Repository](https://github.com/sahilnikam2410/Python-Network-Honeypot)**
+- 🔭 **Current Operation:** Building covert C2 infrastructure over public APIs.
+- 🎯 **Objective:** Securing the digital frontier through ethical hacking.
+- 🛠️ **Weapon of Choice:** Python, Kali Linux, Bash.
 
 ---
 
-## 🛠️ Technical Arsenal
+### 🏆 **The Arsenal (Featured Projects)**
 
-| Domain | Tools & Technologies |
+| **RED TEAM (Attack)** 🔴 | **BLUE TEAM (Defense)** 🔵 |
 | :--- | :--- |
-| **Languages** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white) |
-| **Security Tools** | Kali Linux, Wireshark, Metasploit, Nmap, Burp Suite |
-| **Development** | Git, VS Code, Google Cloud Platform (GCP), Linux Administration |
-| **Core Concepts** | Network Forensics, Steganography, Socket Programming, API Security |
+| **[Project Cinema (YouTube C2)](https://github.com/sahilnikam2410/YouTube-Stego-C2-PoC)** | **[Network Honeypot](https://github.com/sahilnikam2410/Python-Network-Honeypot)** |
+| *Covert C2 Agent utilizing Steganography.* | *Forensic logging of intrusion attempts.* |
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![YouTube API](https://img.shields.io/badge/YouTube_API-FF0000?style=flat&logo=youtube&logoColor=white) | ![Socket](https://img.shields.io/badge/Socket-Networking-blue) ![Forensics](https://img.shields.io/badge/Blue_Team-Defense-blue) |
 
 ---
 
-## 📊 GitHub Analytics
+### 📊 **Intelligence Report (Stats)**
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sahilnikam2410&show_icons=true&theme=radical&hide_border=true" height="160" alt="stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sahilnikam2410&theme=radical&hide_border=true" height="160" alt="streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=sahilnikam2410&show_icons=true&theme=radical&hide_border=true&count_private=true" height="150" alt="stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sahilnikam2410&theme=radical&hide_border=true" height="150" alt="streak" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sahilnikam2410&layout=compact&theme=radical&hide_border=true" height="160" alt="languages" />
+  <br>
+  <img src="https://github.com/sahilnikam2410/sahilnikam2410/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </div>
 
 ---
 
 <div align="center">
-  <sub><i>"Security is not a product, but a process."</i></sub>
+  <img src="https://github-profile-trophy.vercel.app/?username=sahilnikam2410&theme=radical&no-frame=true&margin-w=15" />
 </div>
