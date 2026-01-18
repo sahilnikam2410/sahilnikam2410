@@ -84,8 +84,11 @@ root@arsenal:~# tree -L 2
 
 <div align="center"> 
   <img src="https://github-readme-stats.vercel.app/api?username=sahilnikam2410&show_icons=true&theme=dark&hide_border=true" height="150" alt="stats" /> 
-  
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sahilnikam2410&theme=dark&hide_border=true" height="150" alt="streak" /> 
+</div>
+
+---
+<div align="center">
+  <code>[!] END_OF_TRANSMISSION // DISCONNECTING...</code>
 </div>
 
 
@@ -93,9 +96,4 @@ root@arsenal:~# tree -L 2
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=sahilnikam2410&style=flat-square&label=SYSTEM_ACCESS_COUNT&color=ff0000" alt="counter" />
-</div>
-
----
-<div align="center">
-  <code>[!] END_OF_TRANSMISSION // DISCONNECTING...</code>
 </div>
