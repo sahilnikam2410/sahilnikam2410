@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=30&duration=2000&pause=500&color=FF0000&center=true&vCenter=true&width=500&lines=SCANNING+RETINA...;IDENTITY+CONFIRMED:+SAHIL_NIKAM;ACCESSING+MAINFRAME...;SYSTEM+STATUS:+COMPROMISED." alt="Typing Effect" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=30&duration=2000&pause=500&color=FF0000&center=true&vCenter=true&width=500&lines=SCANNING+RETINA...;IDENTITY+CONFIRMED:+SAHIL_NIKAM;ACCESSING+MAINFRAME...;SYSTEM+STATUS:+COMPROMISED" alt="Typing Effect" />
 </div>
 
 ---
@@ -26,4 +26,14 @@ root@classified-mainframe:~# cat directives.txt
 root@classified-mainframe:~# ping -c 1 127.0.0.1
 > PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
 > 64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.042 ms
-> [CONNECTION ESTABLISHED]
+29  > [CONNECTION ESTABLISHED]
+30  ```
+31  
+32  <div align="center">
+33  <a href="https://www.linkedin.com/in/sahil-nikam-" target="_blank">
+34  <img src="https://img.shields.io/badge/ESTABLISH_UPLINK-LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+35  </a>
+36  <a href="mailto:sahilnikam133@gmail.com">
+37  <img src="https://img.shields.io/badge/SEND_ENCRYPTED_PACKET-GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+38  </a>
+39  </div>
