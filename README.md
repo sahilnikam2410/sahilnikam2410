@@ -1,19 +1,29 @@
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=VT323&size=35&duration=3000&pause=1000&color=00FF00&center=true&vCenter=true&width=435&lines=INITIALIZING+CONNECTION...;ACCESS+GRANTED.;ROOT+PRIVILEGES+ACQUIRED.;WELCOME+TO+SAHIL'S+TERMINAL." alt="Typing Effect" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=FF0000&height=50&section=header&text=⚠%20WARNING:%20RESTRICTED%20ACCESS%20//%20LEVEL%205%20CLEARANCE%20REQUIRED&fontSize=20&fontColor=FFFFFF&animation=fadeIn" width="100%" />
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=000000&height=100&section=header&text=USER:%20SAHIL_NIKAM&fontSize=25&fontColor=00FF00&animation=fadeIn&fontAlignY=50&desc=STATUS:%20ONLINE%20|%20IP:%20127.0.0.1&descAlignY=75&descAlign=50" width="100%" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=30&duration=2000&pause=500&color=FF0000&center=true&vCenter=true&width=500&lines=SCANNING+RETINA...;IDENTITY+CONFIRMED:+SAHIL_NIKAM;ACCESSING+MAINFRAME...;SYSTEM+STATUS:+COMPROMISED." alt="Typing Effect" />
 </div>
 
+---
+
+### 💻 **// TERMINAL_ACCESS_POINT**
+
 ```bash
-root@sandip-uni:~# whoami
-> Sahil Nikam | Final Year CSE | Red & Blue Team Operator
+root@classified-mainframe:~# ./identify_subject.sh --target SAHIL_NIKAM
+> [SUCCESS] TARGET IDENTIFIED:
+> NAME: Sahil Nikam
+> RANK: Cyber Warfare Operator (Red Team)
+> UNIT: Sandip University [Final Year CSE]
+> STATUS: ACTIVE THREAT // DO NOT APPROACH
 
-root@sandip-uni:~# cat mission.txt
-> OBJECTIVE: Breaching firewalls & securing networks.
-> CURRENT_TASK: Developing Covert C2 Infrastructure.
-> WEAPONS: Python, C, Bash, Metasploit, Wireshark.
+root@classified-mainframe:~# cat directives.txt
+> 1. Infiltrate secure networks (Authorized C2 Testing).
+> 2. Develop advanced malware signatures (Python/C).
+> 3. Establish persistence via Steganography.
 
-root@sandip-uni:~# ./contact_me.sh
-> CONNECTING...
+root@classified-mainframe:~# ping -c 1 127.0.0.1
+> PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+> 64 bytes from 127.0.0.1: icmp_seq=1 ttl=64 time=0.042 ms
+> [CONNECTION ESTABLISHED]
