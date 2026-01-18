@@ -80,10 +80,10 @@ root@arsenal:~# tree -L 2
 
 <br>
 
-### 🏆 **// MISSION_ACHIEVEMENTS**
+### 📡 **// ACTIVE_PROTOCOLS (Tech Stack)**
 
-<div align="center"> 
-  <img src="https://github-profile-trophy.vercel.app/?username=sahilnikam2410&theme=darkhub&no-frame=true&no-bg=true&margin-w=4" alt="trophies" /> 
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=kali,linux,py,c,java,bash,git,github,vscode,docker&theme=dark" alt="tech_stack" />
 </div>
 
 <br>
