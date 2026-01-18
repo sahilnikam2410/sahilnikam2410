@@ -37,3 +37,64 @@ root@classified-mainframe:~# ping -c 1 127.0.0.1
 <img src="https://img.shields.io/badge/SEND_ENCRYPTED_PACKET-GMAIL-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 </div>
+
+```text
+root@arsenal:~# tree -L 2
+.
+├── [🛑 PROTOCOL_CINEMA (C2)]
+│   ├── Type: OFFENSIVE_WEAPON
+│   └── Desc: Steganographic Command & Control via Public APIs
+│   └── Status: DEPLOYED [INITIATE_ATTACK]
+│
+└── [🛡️ PROTOCOL_HONEYPOT (IDS)]
+    ├── Type: DEFENSIVE_SHIELD
+    ├── Desc: Internal Network Intrusion Detection System
+    └── Status: LISTENING [ACTIVATE_DEFENSE]
+
+```
+### 🕵️ **// HIDDEN_FILES (Click to Decrypt)**
+
+<details>
+<summary><b>▼ [CLICK_TO_EXPAND] :: SYSTEM_SKILL_TREE</b></summary>
+<br>
+
+| Category | Modules Loaded |
+| :--- | :--- |
+| **Languages** | `Python3` `C` `Bash_Scripting` `Java` |
+| **Red Team** | `Metasploit` `Burp_Suite` `Wireshark` `Nmap` |
+| **OS** | `Kali_Linux_Rolling` `Ubuntu_Server` `Windows_11` |
+
+</details>
+
+<details> 
+<summary><b>▼ [CLICK_TO_EXPAND] :: MISSION_HISTORY_LOG</b></summary>
+<br>
+<code> 
+> [2026-01-18] DEPLOYED "PROJECT_CINEMA" C2 AGENT.
+> [2026-01-15] ESTABLISHED "HONEYPOT" SURVEILLANCE.
+> [2025-12-20] COMPROMISED LAB NETWORK (Wazuh/Sliver).
+> [2025-09-19] INITIATED GITHUB PROTOCOL.
+</code> 
+</details>
+
+
+<br>
+
+### 📡 **// NETWORK_TRAFFIC_ANALYSIS**
+
+<div align="center"> 
+  <img src="https://github-readme-stats.vercel.app/api?username=sahilnikam2410&show_icons=true&theme=vision-friendly-dark&hide_border=true&count_private=true" height="150" alt="stats" /> 
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sahilnikam2410&theme=vision-friendly-dark&hide_border=true" height="150" alt="streak" /> 
+</div>
+
+
+<br>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=sahilnikam2410&style=flat-square&label=SYSTEM_ACCESS_COUNT&color=ff0000" alt="counter" />
+</div>
+
+---
+<div align="center">
+  <code>[!] END_OF_TRANSMISSION // DISCONNECTING...</code>
+</div>
