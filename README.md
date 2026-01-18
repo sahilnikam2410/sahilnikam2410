@@ -80,10 +80,10 @@ root@arsenal:~# tree -L 2
 
 <br>
 
-### 📡 **// NETWORK_TRAFFIC_ANALYSIS**
+### 🏆 **// MISSION_ACHIEVEMENTS**
 
 <div align="center"> 
-  <img src="https://github-readme-stats.vercel.app/api?username=sahilnikam2410&show_icons=true&theme=dark&hide_border=true&v=999" height="150" alt="stats" /> 
+  <img src="https://github-profile-trophy.vercel.app/?username=sahilnikam2410&theme=darkhub&no-frame=true&no-bg=true&margin-w=4" alt="trophies" /> 
 </div>
 
 <br>
