@@ -51,8 +51,32 @@ root@arsenal:~# tree -L 2
     ├── Desc: Internal Network Intrusion Detection System
     └── Status: LISTENING [ACTIVATE_DEFENSE]
 
+
+
+root@arsenal:~# ls old_projects
+.
+├── SESSION_HIJACKING_DVWA
+│   ├── Tools: DVWA, Burp Suite
+│   ├── Action: Captured session cookie
+│   └── Result: Session replay demonstration
+│
+├── WPA2_HANDSHAKE_ANALYSIS
+│   ├── Tools: Aircrack-ng
+│   ├── Action: Captured 4-way WPA2 handshake
+│   └── Result: Offline PSK cracking simulation
+│
+├── RSA_ENCRYPTION_IMPLEMENTATION
+│   ├── Tools: Python RSA Library
+│   ├── Action: Public key encryption
+│   └── Output: Generated cipher.txt file
+│
+└── STEGANOGRAPHY_MODULE
+    ├── Tools: Python Image Processing
+    ├── Action: Embedded encrypted payload
+    └── Status: Lab-tested persistence mechanism
+
 ```
-### 🕵️ **// HIDDEN_FILES (Click to Decrypt)**
+### 🕵️ **HIDDEN_FILES (Click to Decrypt)**
 
 <details>
 <summary><b>▼ [CLICK_TO_EXPAND] :: SYSTEM_SKILL_TREE</b></summary>
@@ -77,10 +101,9 @@ root@arsenal:~# tree -L 2
 </code> 
 </details>
 
-
 <br>
 
-### 📡 **// ACTIVE_PROTOCOLS (Tech Stack)**
+### 📡ACTIVE_PROTOCOLS (Tech Stack)
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=kali,linux,py,c,java,bash,git,github,vscode,docker&theme=dark" alt="tech_stack" />
