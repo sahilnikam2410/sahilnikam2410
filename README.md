@@ -52,7 +52,6 @@ root@arsenal:~# tree -L 2
     └── Status: LISTENING [ACTIVATE_DEFENSE]
 
 
-
 root@arsenal:~# ls old_projects
 .
 ├── SESSION_HIJACKING_DVWA
