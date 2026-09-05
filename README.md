@@ -6,6 +6,15 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Share+Tech+Mono&size=30&duration=2000&pause=500&color=FF0000&center=true&vCenter=true&width=500&lines=SCANNING+RETINA...;IDENTITY+CONFIRMED:+SAHIL_NIKAM;ACCESSING+MAINFRAME...;SYSTEM+STATUS:+COMPROMISED" alt="Typing Effect" />
 </div>
 
+<div align="center">
+
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-hackwithsahil.vercel.app-35ff9e?style=for-the-badge&logo=vercel&logoColor=black)](https://hackwithsahil.vercel.app)
+[![Resume](https://img.shields.io/badge/RESUME-JSON-35e0ff?style=for-the-badge&logo=json&logoColor=black)](https://hackwithsahil.vercel.app/resume.json)
+
+**Live portfolio — MITRE ATT&CK detection coverage, lab case studies, interactive shell.**
+
+</div>
+
 ---
 
 ### 💻 **// TERMINAL_ACCESS_POINT**
