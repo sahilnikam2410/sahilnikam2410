@@ -21,17 +21,18 @@ DIM = "#5b6673"
 TEXT = "#c9d1d9"
 
 # ---------------------------------------------------------------- SOC console
-# Replay of the Silent Operator run on 5 Sep 2026: isolated 60122 failures stay
-# quiet, a burst from one source trips rule 100211 (level 12, T1110).
+# Replay of the Silent Operator run on 5 Sep 2026, timestamps from the Wazuh
+# capture (detection-rules/evidence/bruteforce-100211.png): isolated 60122
+# failures stay quiet, a burst from one source trips 100211 (level 12, T1110).
 # (seconds into the loop, kind, time, rule, level, text)
 LOG_LINES = [
-    (0.6, "noise", "21:31:07", "60122", "5", "Logon failure 4625 · WIN-SERVER-2022 · isolated → no alert"),
-    (1.6, "noise", "21:34:19", "60122", "5", "Logon failure 4625 · WIN-SERVER-2022 · isolated → no alert"),
-    (3.0, "fail", "21:36:40", "60122", "5", "Logon failure 4625 · WIN-SERVER-2022 · src 192.168.56.20"),
-    (3.5, "fail", "21:36:41", "60122", "5", "Logon failure 4625 · WIN-SERVER-2022 · src 192.168.56.20"),
-    (4.0, "fail", "21:36:41", "60122", "5", "Logon failure 4625 · WIN-SERVER-2022 · src 192.168.56.20"),
-    (4.5, "fail", "21:36:42", "60122", "5", "Logon failure 4625 · WIN-SERVER-2022 · src 192.168.56.20"),
-    (5.6, "alert", "21:36:42", "100211", "12", "BRUTE FORCE DETECTED · same_source_ip · T1110"),
+    (0.6, "noise", "21:31:39", "60122", "5", "Logon failure 4625 · WIN-SERVER-2022 · isolated → no alert"),
+    (1.6, "noise", "21:34:21", "60122", "5", "Logon failure 4625 · WIN-SERVER-2022 · isolated → no alert"),
+    (3.0, "fail", "21:38:55", "60122", "5", "Logon failure 4625 · WIN-SERVER-2022 · same source"),
+    (3.5, "fail", "21:38:58", "60122", "5", "Logon failure 4625 · WIN-SERVER-2022 · same source"),
+    (4.0, "fail", "21:39:02", "60122", "5", "Logon failure 4625 · WIN-SERVER-2022 · same source"),
+    (4.5, "fail", "21:39:04", "60122", "5", "Logon failure 4625 · WIN-SERVER-2022 · same source"),
+    (5.6, "alert", "21:39:08", "100211", "12", "BRUTE FORCE DETECTED · same_source_ip · T1110"),
     (7.0, "step", "", "", "", "▶ triage   one source · burst inside 60s · true positive"),
     (8.3, "step", "", "", "", "▶ respond  isolate source · open case · write report"),
 ]
