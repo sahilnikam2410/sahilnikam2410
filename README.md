@@ -78,7 +78,7 @@ flowchart LR
 
 | ATT&CK | Technique | Tactic | Status | Evidence |
 |---|---|---|---|---|
-| [T1110](https://attack.mitre.org/techniques/T1110/) | Brute Force | Credential Access | ✅ **validated in lab** | Wazuh rule `100211` fired, 5 Sep 2026 |
+| [T1110](https://attack.mitre.org/techniques/T1110/) | Brute Force | Credential Access | ✅ **validated in lab** | [Wazuh rule `100211`](https://github.com/sahilnikam2410/detection-rules/blob/main/wazuh/validated/100211_windows_bruteforce.xml) fired, 5 Sep 2026 · [evidence](https://github.com/sahilnikam2410/detection-rules/blob/main/evidence/bruteforce-100211.png) |
 | [T1059](https://attack.mitre.org/techniques/T1059/) | Command & Scripting Interpreter | Execution | 🟢 detected | [silent-operator](https://github.com/sahilnikam2410/silent-operator) |
 | [T1046](https://attack.mitre.org/techniques/T1046/) | Network Service Discovery | Discovery | 🟢 detected | [silent-operator](https://github.com/sahilnikam2410/silent-operator) |
 | [T1566](https://attack.mitre.org/techniques/T1566/) | Phishing | Initial Access | 🟢 detected | [silent-operator](https://github.com/sahilnikam2410/silent-operator) |
@@ -106,25 +106,26 @@ flowchart LR
 </group>
 ```
 
-**Same logic as Sigma** (portable to Splunk / Elastic)
+**Same logic as a Sigma v2 correlation** (lint-checked in CI, compiled to Splunk SPL)
 
 ```yaml
-title: Windows brute force followed by success
+title: Windows Brute Force From a Single Source
 status: experimental
-logsource: { product: windows, service: security }
-detection:
-  failures: { EventID: 4625 }
-  success:  { EventID: 4624 }
-  timeframe: 2m
-  condition: failures | count() by IpAddress > 5 and success
+correlation:
+    type: event_count
+    rules: [win_security_logon_failure]   # EventID 4625
+    group-by: [IpAddress]                 # = same_source_ip
+    timespan: 60s
+    condition: { gte: 5 }
 falsepositives:
-  - Service accounts with stale cached credentials
-  - Password managers retrying after a change
+    - Service accounts with stale cached credentials
+    - Password managers retrying after a password change
 level: high
-tags: [attack.credential_access, attack.t1110]
 ```
 
 Isolated failures raised nothing, which is the point: a correlation rule is only worth having if it stays quiet on noise.
+
+**Full rule set, evidence, test procedure and CI → [detection-rules](https://github.com/sahilnikam2410/detection-rules)** [![validate](https://github.com/sahilnikam2410/detection-rules/actions/workflows/validate.yml/badge.svg)](https://github.com/sahilnikam2410/detection-rules/actions/workflows/validate.yml)
 
 </details>
 
@@ -134,6 +135,7 @@ Isolated failures raised nothing, which is the point: a correlation rule is only
 
 | | Project | What it proves |
 |:---:|---|---|
+| 🧾 | **[Detection Rules](https://github.com/sahilnikam2410/detection-rules)** · [![validate](https://github.com/sahilnikam2410/detection-rules/actions/workflows/validate.yml/badge.svg)](https://github.com/sahilnikam2410/detection-rules/actions/workflows/validate.yml) | Detection-as-code: Wazuh rules, Sigma v2 correlations and generated Splunk SPL. Each labelled *validated* or *draft*, with evidence and a test procedure. CI loads every rule into a real `wazuh-manager`. |
 | 🛰️ | **[The Silent Operator](https://github.com/sahilnikam2410/silent-operator)** · [case study](https://hackwithsahil.vercel.app/work/silent-operator) | End-to-end SOC lab (Wazuh, Sysmon, Kali, Windows). Red-team runs mapped to ATT&CK, hunted from the blue side, gaps closed with new rules. |
 | 🖥️ | **[Multi-Endpoint Monitoring Lab](https://github.com/sahilnikam2410/monitoring-lab)** · [case study](https://hackwithsahil.vercel.app/work/monitoring-lab) | Agent-based log forwarding from several endpoints into centralised Wazuh / Splunk dashboards, built and documented from scratch. |
 | 🍯 | **[Protocol Honeypot](https://github.com/sahilnikam2410/protocol-honeypot)** · [case study](https://hackwithsahil.vercel.app/work/protocol-honeypot) | Network IDS + honeypot that profiles recon and unauthorised access into alerts an analyst can act on, not raw noise. |
@@ -208,7 +210,7 @@ Isolated failures raised nothing, which is the point: a correlation rule is only
 ### 📡 Currently
 
 - 📓 Posting **#100DaysOfSOC** on [LinkedIn](https://www.linkedin.com/in/sahilnikam-soc): one SOC concept or investigation a day
-- 🧠 Porting lab detections to **Sigma** so they move between Wazuh, Splunk and Elastic unchanged
+- 🧠 Growing **[detection-rules](https://github.com/sahilnikam2410/detection-rules)**: every lab detection as Wazuh + Sigma + Splunk, validated before it's called validated
 - 🛡️ Building **[VRIKAAN](https://vrikaan.com)**: turning live phishing campaigns into automated detection logic
 
 ---
