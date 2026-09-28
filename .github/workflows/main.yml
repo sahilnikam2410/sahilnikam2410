@@ -1,40 +1,28 @@
-### **FILE 2: The Automation Bot (`main.yml`)**
-
-**Instructions:**
-
-1.  In your repository, go to the folder `.github` -\> `workflows` -\> `main.yml`.
-2.  Click **Edit** (Pencil Icon).
-3.  **Delete everything** and paste this code to ensure the Snake generates correctly.
-4.  Click **Commit changes**.
-
-<!-- end list -->
-
-```yaml
-name: Generate Snake
+name: Generate contribution snake
 
 on:
   schedule:
-    # Runs automatically every 24 hours
-    - cron: "0 */24 * * *" 
+    - cron: "0 0 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v2
-      
-      - uses: Platane/snk@v3
-        id: snake-gif
+      - uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: sahilnikam2410
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
+      - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
