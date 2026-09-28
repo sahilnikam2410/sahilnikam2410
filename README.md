@@ -14,6 +14,10 @@
 [![YouTube](https://img.shields.io/badge/YouTube-HackWithSahilYT-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@HackWithSahilYT)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sahilnikam133@gmail.com)
 
+<br/><br/>
+
+<a href="https://github.com/sahilnikam2410/silent-operator"><img src="assets/soc-console.svg" width="100%" alt="SOC console replay: two isolated Windows logon failures stay quiet, then four failures from one source fire Wazuh rule 100211 (level 12, T1110 brute force), followed by triage and response" /></a>
+
 </div>
 
 ---
@@ -66,6 +70,12 @@ flowchart LR
 
 ### 🎯 MITRE ATT&CK coverage
 
+<a href="https://hackwithsahil.vercel.app/work/silent-operator"><img src="assets/attack-coverage.svg" width="100%" alt="MITRE ATT&CK Enterprise coverage map: T1566 Phishing and T1190 in Initial Access, T1059 in Execution, T1110 Brute Force validated in Credential Access, T1046 in Discovery, T1071.001 in Command and Control" /></a>
+
+<details>
+<summary><b>📋 Coverage table with evidence</b></summary>
+<br/>
+
 | ATT&CK | Technique | Tactic | Status | Evidence |
 |---|---|---|---|---|
 | [T1110](https://attack.mitre.org/techniques/T1110/) | Brute Force | Credential Access | ✅ **validated in lab** | Wazuh rule `100211` fired, 5 Sep 2026 |
@@ -76,6 +86,8 @@ flowchart LR
 | [T1071.001](https://attack.mitre.org/techniques/T1071/001/) | Application Layer Protocol: Web | Command & Control | 🔵 research | [protocol-cinema](https://github.com/sahilnikam2410/protocol-cinema) |
 
 <sub>✅ validated = rule fired in a controlled run and the event was captured · 🟢 detected = telemetry surfaced it and an alert fired · 🟡 assessed = exercised offensively, findings documented · 🔵 research = studied in an authorised lab, turned into detection logic</sub>
+
+</details>
 
 <details>
 <summary><b>🧾 Detection-as-code: the rule that fired (Wazuh XML + Sigma)</b></summary>
@@ -166,6 +178,18 @@ Isolated failures raised nothing, which is the point: a correlation rule is only
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+---
+
+### 📊 GitHub activity
+
+<div align="center">
+
+<img src="profile-summary-card-output/github_dark/0-profile-details.svg" width="100%" alt="GitHub profile details and contribution history" />
+<img src="profile-summary-card-output/github_dark/3-stats.svg" width="49%" alt="GitHub stats" />
+<img src="profile-summary-card-output/github_dark/1-repos-per-language.svg" width="49%" alt="Repositories per language" />
+
+</div>
 
 ---
 
