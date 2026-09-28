@@ -125,7 +125,7 @@ level: high
 
 Isolated failures raised nothing, which is the point: a correlation rule is only worth having if it stays quiet on noise.
 
-**Full rule set, evidence, test procedure and CI → [detection-rules](https://github.com/sahilnikam2410/detection-rules)** [![validate](https://github.com/sahilnikam2410/detection-rules/actions/workflows/validate.yml/badge.svg)](https://github.com/sahilnikam2410/detection-rules/actions/workflows/validate.yml)
+**Full rule set, evidence, [triage playbook](https://github.com/sahilnikam2410/detection-rules/blob/main/playbooks/T1110_bruteforce.md), test procedure and CI → [detection-rules](https://github.com/sahilnikam2410/detection-rules)** [![validate](https://github.com/sahilnikam2410/detection-rules/actions/workflows/validate.yml/badge.svg)](https://github.com/sahilnikam2410/detection-rules/actions/workflows/validate.yml)
 
 </details>
 
@@ -135,7 +135,7 @@ Isolated failures raised nothing, which is the point: a correlation rule is only
 
 | | Project | What it proves |
 |:---:|---|---|
-| 🧾 | **[Detection Rules](https://github.com/sahilnikam2410/detection-rules)** · [![validate](https://github.com/sahilnikam2410/detection-rules/actions/workflows/validate.yml/badge.svg)](https://github.com/sahilnikam2410/detection-rules/actions/workflows/validate.yml) | Detection-as-code: Wazuh rules, Sigma v2 correlations and generated Splunk SPL. Each labelled *validated* or *draft*, with evidence and a test procedure. CI loads every rule into a real `wazuh-manager`. |
+| 🧾 | **[Detection Rules](https://github.com/sahilnikam2410/detection-rules)** · [![validate](https://github.com/sahilnikam2410/detection-rules/actions/workflows/validate.yml/badge.svg)](https://github.com/sahilnikam2410/detection-rules/actions/workflows/validate.yml) | Detection-as-code: Wazuh rules, Sigma v2 correlations and generated Splunk SPL for T1110, T1059.001 and T1046. Each labelled *validated* or *draft*, and each ships with an **L1 triage playbook** (scope, decide, contain, escalate). CI loads every rule into a real `wazuh-manager`. |
 | 🛰️ | **[The Silent Operator](https://github.com/sahilnikam2410/silent-operator)** · [case study](https://hackwithsahil.vercel.app/work/silent-operator) | End-to-end SOC lab (Wazuh, Sysmon, Kali, Windows). Red-team runs mapped to ATT&CK, hunted from the blue side, gaps closed with new rules. |
 | 🖥️ | **[Multi-Endpoint Monitoring Lab](https://github.com/sahilnikam2410/monitoring-lab)** · [case study](https://hackwithsahil.vercel.app/work/monitoring-lab) | Agent-based log forwarding from several endpoints into centralised Wazuh / Splunk dashboards, built and documented from scratch. |
 | 🍯 | **[Protocol Honeypot](https://github.com/sahilnikam2410/protocol-honeypot)** · [case study](https://hackwithsahil.vercel.app/work/protocol-honeypot) | Network IDS + honeypot that profiles recon and unauthorised access into alerts an analyst can act on, not raw noise. |
